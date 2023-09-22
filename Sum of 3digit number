@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+int a,an,sn;
+a=100;
+an=999;
+sn=899/2*(a+an);
+printf("calculate is the=%d",sn);
+    return 0;
