@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main(){
+  int a,b,max;
+  printf("enter two numbers");
+  scanf("%d%d\n",&a,&b);
+  max=(a>b)?a:b;
+  
+  printf("max=%d\n",max);
+  return 0;
+}
