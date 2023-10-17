@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main(){
+
+int y=(int)3.4f;
+printf("%d",y);
+return 0;
+}
