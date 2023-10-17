@@ -1,0 +1,14 @@
+#include <stdio.h>
+#define pi=3.14
+
+int main()
+{
+  float radious,area;
+  printf("enter a radious");
+  scanf("%f",radious);
+  area=pi*radious*radious;
+  printf("%f",area);
+  
+    
+    return 0;
+}
